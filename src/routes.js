@@ -5,8 +5,8 @@ import {
   Switch,
 } from 'react-router-dom';
 
-const AsyncHome = asyncComponent(() => import('./components/Home/Home'));
-const AsyncAbout = asyncComponent(() => import('./components/About/About'));
+const AsyncHome = asyncComponent(() => import('./containers/Home/Home'));
+const AsyncAbout = asyncComponent(() => import('./containers/About/About'));
 // import About from './components/Home/Home';
 // import Home from './components/About/About';
 

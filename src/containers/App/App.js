@@ -5,9 +5,10 @@ import {
 import AllRoutes from '../../routes';
 import {
   Header
-} from '../Layouts'
+} from './../../components/Layouts'
 
-import './App.css';
+import './font-awesome.css'
+import './App.css'
 
 class App extends React.Component {
   render() {
