@@ -146,7 +146,7 @@
     position: relative;
   }
   .header-menu.collapse{
-    left: 0;
+    left: -1px;
   }
   .header-menu .navbar{
     height: 42px;

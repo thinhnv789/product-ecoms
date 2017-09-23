@@ -55,14 +55,14 @@ class Header extends Component {
               <span className="banner-item shipping-quickly">
                 <i className="fa fa-truck"/>
                 <div className="text-inline">
-                  <label style={{color: '#F7972B '}}>Uy tín chất lượng</label><br/>
+                  <label style={{color: '#F7972B'}}>Uy tín chất lượng</label><br/>
                   <label>Ship hàng 24h</label>
                 </div>
               </span>
               <span className="banner-item order-online">
                 <i className="fa fa-mobile"/>
                 <div className="text-inline">
-                  <label style={{color: '#F7972B '}}>Đặt hàng online</label><br/>
+                  <label style={{color: '#F7972B'}}>Đặt hàng online</label><br/>
                   <label>dễ dàng trên hệ thống</label>
                 </div>
               </span>
