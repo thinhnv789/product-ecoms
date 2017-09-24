@@ -34,7 +34,7 @@ li:focus {
   position: relative;
 }
 .hidden-xs {
-  display: none !important;
+  display: none;
 }
 @media (min-width: 768px) {
   .container {
