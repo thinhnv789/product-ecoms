@@ -17,6 +17,9 @@
 .post-item .short-content .metadata a:hover i {
   color: #f60 !important;
 }
+.post-item .image-thumb img {
+  width: 100%;
+}
 
 @media(min-width: 768px) {
   .post-item .image-thumb {

@@ -9,35 +9,37 @@ class PostItem extends React.Component {
   }
 
   render() {
+    const { item } = this.props;
+
     return (
       <div className="post-item">
         <div className="row">
           <div className="col-md-5 col-lg-5 image-thumb">
-            <a href="#">
-              <img className="img img-responsive" alt='ttt' src="./test.gif"/>
+            <a href={`/tin-tuc/${item.alias}`}>
+              <img className="img img-responsive" alt={item.title} src={item.imageUrl}/>
             </a>
           </div>
           <div className="col-md-7 col-lg-7 short-content">
-            <a href="#">
+            <a href={`/tin-tuc/${item.alias}`}>
               <h2 className="post-title">
-                Cảnh sát bất lực, để hai tài xế đánh nhau giữa đường
+                {item.title}
               </h2>
             </a>
             <div className="metadata">
               <span className="author">
-                <a href="#">
+                <a href="/author">
                   <i className="fa fa-user"/> Author
                 </a>
               </span>
               <span className="devider"></span>
               <span className="publish-time">
-                <a href="#">
+                <a href={`/${item.publishTime}`}>
                   <i className="fa fa-calendar"/> 24/09/2017
                 </a>
               </span>
             </div>
             <p className="description">
-            Chiếc xe Van lách lên và va quệt vào chiếc xe đặt camera hành trình, ngỡ rằng chiếc xe sẽ dừng...
+              {item.description}
             </p>
           </div>
         </div>

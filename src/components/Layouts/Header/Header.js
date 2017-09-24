@@ -37,16 +37,16 @@ class Header extends Component {
               <span className="icon-bar" />
             </button>
             <div className="header-socials">
-              <a href="#" className="social-item facebook">
+              <a href="/facebook" className="social-item facebook">
                 <i className="fa fa-facebook"></i>
               </a>
-              <a href="#" className="social-item gplus">
+              <a href="/g+" className="social-item gplus">
                 <i className="fa fa-google-plus"></i>
               </a>
-              <a href="#" className="social-item youtube">
+              <a href="/youtube" className="social-item youtube">
                 <i className="fa fa-play"></i>
               </a>
-              <a href="javascript:void(0);" className="social-item hotline hidden-xs">
+              <a href="tel: 0123456789" className="social-item hotline hidden-xs">
                 <i className="fa fa-phone"></i>  &nbsp;Hotline: 0123456789
               </a>
             </div>
@@ -73,7 +73,7 @@ class Header extends Component {
                 </div>
               </span>
 
-              <a href="#" className="cart pull-right">
+              <a href="/cart" className="cart pull-right">
                 <i className="fa fa-cart-arrow-down"/>
                 <span className="cart-items">GIỎ HÀNG</span>
                 <span className="count-items">0</span>
