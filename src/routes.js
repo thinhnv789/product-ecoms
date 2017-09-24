@@ -7,6 +7,7 @@ import {
 
 const AsyncHome = asyncComponent(() => import('./containers/Home/Home'));
 const AsyncAbout = asyncComponent(() => import('./containers/About/About'));
+const AsyncPost = asyncComponent(() => import('./containers/Post/Post'));
 // import About from './components/Home/Home';
 // import Home from './components/About/About';
 
@@ -15,7 +16,9 @@ class AllRoutes extends Component{
     return (
       <div className="container">
         <Switch>
-          <Route path="/about" component={AsyncAbout}/>
+          <Route path="/gioi-thieu" component={AsyncAbout}/>
+          <Route path="/san-pham" component={AsyncPost}/>
+          <Route path="/tin-tuc" component={AsyncPost}/>
           <Route path="/" exact component={AsyncHome}/>
         </Switch>
       </div>

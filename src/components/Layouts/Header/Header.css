@@ -65,8 +65,18 @@
 .social-item.facebook {
   background: #365899;
 }
+.social-item.gplus {
+  background: #DE5949;
+}
 .social-item.youtube {
   background: #F1321B;
+}
+.social-item.hotline {
+  width: auto;
+  background: #333;
+  padding: 0 5px;
+  position: absolute;
+  right: 15px;
 }
 .header-menu{
   position: fixed;

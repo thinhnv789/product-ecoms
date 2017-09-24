@@ -40,8 +40,14 @@ class Header extends Component {
               <a href="#" className="social-item facebook">
                 <i className="fa fa-facebook"></i>
               </a>
+              <a href="#" className="social-item gplus">
+                <i className="fa fa-google-plus"></i>
+              </a>
               <a href="#" className="social-item youtube">
                 <i className="fa fa-play"></i>
+              </a>
+              <a href="javascript:void(0);" className="social-item hotline hidden-xs">
+                <i className="fa fa-phone"></i>  &nbsp;Hotline: 0123456789
               </a>
             </div>
           </div>
@@ -79,10 +85,16 @@ class Header extends Component {
           <div className="container">
             <ul className="nav navbar">
               <li className={ pathname==='/' ? 'active' : null} onClick={this.navToPage}>
-                <Link to='/'>Home</Link>
+                <Link to='/'>Trang chủ</Link>
               </li>
-              <li className={ pathname==='/about' ? 'active' : null} onClick={this.navToPage}>
-                <Link to='/about'>About</Link>
+              <li className={ pathname==='/gioi-thieu' ? 'active' : null} onClick={this.navToPage}>
+                <Link to='/about'>Giới thiệu</Link>
+              </li>
+              <li className={ pathname==='/san-pham' ? 'active' : null} onClick={this.navToPage}>
+                <Link to='/san-pham'>Sản phẩm</Link>
+              </li>
+              <li className={ pathname==='/tin-tuc' ? 'active' : null} onClick={this.navToPage}>
+                <Link to='/tin-tuc'>Tin tức</Link>
               </li>
             </ul>
           </div>

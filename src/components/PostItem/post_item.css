@@ -1,0 +1,31 @@
+.post-item *{
+  color: #333;
+}
+.post-item .short-content .post-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.post-item .short-content .description {
+  margin: 0;
+}
+.post-item .short-content .metadata .devider{
+  border-right: 1px solid #333;
+  margin: 0 5px;
+}
+.post-item .short-content .post-title:hover, .post-item .short-content .metadata a:hover,
+.post-item .short-content .metadata a:hover i {
+  color: #f60 !important;
+}
+
+@media(min-width: 768px) {
+  .post-item .image-thumb {
+    width: 36%;
+  }
+  .post-item .short-content {
+    width: 64%;
+  }
+  .post-item .short-content .post-title {
+    margin-top: 0;
+  }
+}
