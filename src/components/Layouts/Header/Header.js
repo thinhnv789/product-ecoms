@@ -86,7 +86,7 @@ class Header extends Component {
                 <Link to='/'>Trang chủ</Link>
               </li>
               <li className={ pathname==='/gioi-thieu' ? 'active' : null} onClick={this.navToPage}>
-                <Link to='/about'>Giới thiệu</Link>
+                <Link to='/gioi-thieu'>Giới thiệu</Link>
               </li>
               <li className={ pathname==='/san-pham' ? 'active' : null} onClick={this.navToPage}>
                 <Link to='/san-pham'>Sản phẩm</Link>

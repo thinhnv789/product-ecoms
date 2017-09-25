@@ -24,21 +24,23 @@ class Post extends React.Component {
 
     return (
       <div className="post-page">
-        <div className="row">
-          <div className="col-md-8">
-            {
-              posts && posts.map((item, index) => {
-                return (
-                  <PostItem
-                    key={index}
-                    item={item}
-                  />
-                )
-              })
-            }
-          </div>
-          <div className="col-md-4">
-            Banner Post right
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8">
+              {
+                posts && posts.map((item, index) => {
+                  return (
+                    <PostItem
+                      key={index}
+                      item={item}
+                    />
+                  )
+                })
+              }
+            </div>
+            <div className="col-md-4">
+              Banner Post right
+            </div>
           </div>
         </div>
       </div>

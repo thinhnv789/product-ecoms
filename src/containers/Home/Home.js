@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import {Helmet} from 'react-helmet'
 
-import Slider from './../../components/Slider/Slider'
+import CarouselSlider from './../../components/CarouselSlider/CarouselSlider'
 
 import './Home.css';
 
@@ -18,10 +18,10 @@ class  Home extends Component {
 			  <div className="container-fluid">
 					<div className="row">
 						<div className="col-md-8 col-lg-8">
-							<Slider/>
+							<CarouselSlider/>
 						</div>
 						<div className="col-md-4 col-lg-4">
-
+							fsdfafa
 						</div>
 					</div>
 				</div>
