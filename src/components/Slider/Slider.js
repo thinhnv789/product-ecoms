@@ -15,23 +15,15 @@ class Slider extends React.Component {
     // const { src } = this.props;
     let sources = [
       {
-        src: 'http://thinhnv.esy.es/uploads/images-slider/image1.jpg',
+        src: 'http://www.slidesjs.com/img/example-slide-350-1.jpg',
         alt: 'anhr 1'
       },
       {
-        src: 'http://thinhnv.esy.es/uploads/images-slider/image2.jpg',
+        src: 'http://www.slidesjs.com/img/example-slide-350-1.jpg',
         alt: 'anhr 1'
       },
       {
-        src: 'http://thinhnv.esy.es/uploads/images-slider/image1.jpg',
-        alt: 'anhr 1'
-      },
-      {
-        src: 'http://thinhnv.esy.es/uploads/images-slider/image2.jpg',
-        alt: 'anhr 1'
-      },
-      {
-        src: 'http://thinhnv.esy.es/uploads/images-slider/image1.jpg',
+        src: 'http://www.slidesjs.com/img/example-slide-350-1.jpg',
         alt: 'anhr 1'
       }
     ]
@@ -42,12 +34,12 @@ class Slider extends React.Component {
           className="owl-theme"
           items={1}
           loop
-          autoplay={true}
+          autoplay={false}
           lazyLoad={true}
           lazyContent={true}
           autoplaySpeed={600}
           autoplayHoverPause={true}
-          margin={0}
+          margin={1}
           autoplayTimeout={3000}
         >
           {
