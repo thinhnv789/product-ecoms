@@ -14,7 +14,7 @@ const AsyncPost = asyncComponent(() => import('./containers/Post/Post'));
 class AllRoutes extends Component{
   render(){
     return (
-      <div className="container">
+      <div className="content-page">
         <Switch>
           <Route path="/gioi-thieu" component={AsyncAbout}/>
           <Route path="/san-pham" component={AsyncPost}/>

@@ -46,9 +46,6 @@ class Header extends Component {
               <a href="/youtube" className="social-item youtube">
                 <i className="fa fa-play"></i>
               </a>
-              <a href="tel: 0123456789" className="social-item hotline hidden-xs">
-                <i className="fa fa-phone"></i>  &nbsp;Hotline: 0123456789
-              </a>
             </div>
           </div>
         </div>
@@ -58,18 +55,19 @@ class Header extends Component {
               <i className="logo-image"/>
             </a>
             <div className="banner-top">
-              <span className="banner-item shipping-quickly">
-                <i className="fa fa-truck"/>
+              <span className="banner-item order-online">
+                <i className="fa fa-phone"/>
                 <div className="text-inline">
-                  <label style={{color: '#F7972B'}}>Uy tín chất lượng</label><br/>
-                  <label>Ship hàng 24h</label>
+                  <label style={{color: '#000'}}>Liên hệ:</label><br/>
+                  <label>0123456789</label>
                 </div>
               </span>
-              <span className="banner-item order-online">
-                <i className="fa fa-mobile"/>
+
+              <span className="banner-item shipping-quickly">
+                <i className="fa fa-map-marker"/>
                 <div className="text-inline">
-                  <label style={{color: '#F7972B'}}>Đặt hàng online</label><br/>
-                  <label>dễ dàng trên hệ thống</label>
+                  <label style={{color: '#000'}}>Địa chỉ:</label><br/>
+                  <address>144 Xuân Thủy, Cầu Giấy, Hà Nội</address>
                 </div>
               </span>
 

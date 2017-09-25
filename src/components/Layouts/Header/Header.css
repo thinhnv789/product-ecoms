@@ -17,8 +17,8 @@
   position: relative;
   display: block;
   padding: 0;
-  height: 44px;
-  line-height: 44px;
+  height: 50px;
+  line-height: 50px;
   border-bottom: 1px solid #e0e6ef;
   -webkit-tap-highlight-color: transparent;
 }
@@ -30,10 +30,12 @@
   display: block;
   padding-left: 10px;
   padding-right: 10px;
+  color: #383737;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
+  color:#F7972B;
 }
 .navbar {
   position: relative;
@@ -59,9 +61,6 @@
   border-radius: 4px;
   color: #fff;
 }
-.header-socials .social-item.hotline {
-  display: none;
-}
 .header-socials .social-item i {
   margin: auto;
 }
@@ -73,13 +72,6 @@
 }
 .social-item.youtube {
   background: #F1321B;
-}
-.social-item.hotline {
-  width: auto;
-  background: #333;
-  padding: 0 5px;
-  position: absolute;
-  right: 15px;
 }
 .header-menu{
   position: fixed;
@@ -128,6 +120,7 @@
 */
 .logo-banner {
   height: 118px;
+  color: #333;
   /* background: #DEDDDD; */
 }
 .logo-banner .logo {
@@ -151,9 +144,6 @@
   .header-socials .social-item {
     margin: 4px 0 4px 10px;
   }
-  .header-socials .social-item.hotline {
-    display: inline-flex;
-  }
   .navbar-toggle{
     display: none;
   }
@@ -165,35 +155,40 @@
     left: -1px;
   }
   .header-menu .navbar{
-    height: 42px;
-    line-height: 42px;
+    height: 50px;
+    line-height: 50px;
   }
   .nav > li {
-    height: 42px;
+    height: 50px;
     display: inline-block;
     border: 0;
   }
   .nav > li.active{
     background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
   .logo-banner .banner-top {
     display: inline-block;
     vertical-align: top;
+    margin: 15px 50px;
   }
   .banner-top .banner-item {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 50px;
+    display: inline-block;
   }
   .banner-top i {
-    color: #909090;
+    color: #7ca877;
     height: 88px;
-    margin: 15px;
+    margin: -10px 10px 0 10px;
     display: inline-flex;
     align-items: center;
-    font-size: 2.5em;
+    font-size: 1.3em;
+    vertical-align: top;
   }
   .banner-top .text-inline {
     display: inline-block;
+    margin-top: 22px;
   }
   .banner-top .text-inline label {
     margin: 0;
@@ -206,14 +201,13 @@
     font-size: 1.8em;
     margin-left: -6px;
     background: #fff;
-    color: #909090;
   }
   .cart.pull-right {
     position: absolute;
     right: 0;
     width: 128px;
     height: 28px;
-    margin-top: 45px;
+    margin-top: 30px;
   }
   
   .cart:hover i, .cart:hover span {
