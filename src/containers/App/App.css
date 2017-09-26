@@ -36,6 +36,9 @@ li:focus {
 .hidden-xs {
   display: none;
 }
+.content-page {
+  padding-top: 15px;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;

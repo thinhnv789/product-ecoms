@@ -14,6 +14,9 @@ class PostItem extends React.Component {
     return (
       <div className="post-item">
         <div className="row">
+          <div className="col-md-12 col-lg-12">
+            <a href={'/danh-muc/' + item.category.alias}>{item.category.categoryName}</a>
+          </div>
           <div className="col-md-5 col-lg-5 image-thumb">
             <a href={`/tin-tuc/${item.alias}`}>
               <img className="img img-responsive" alt={item.title} src={item.imageUrl}/>

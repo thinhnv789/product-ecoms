@@ -1,3 +1,7 @@
+.post-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #dddddd;
+}
 .post-item *{
   color: #333;
 }
