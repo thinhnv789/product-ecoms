@@ -13,24 +13,24 @@ class CarouselSlider extends React.Component {
   }
 
   render() {
-    // const { src } = this.props;
-    let sources = [
-      {
-        original: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-1.jpg',
-        thumbnail: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-1.jpg',
-        originalAlt: 'Anh slide 1'
-      },
-      {
-        original: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-2.jpg',
-        thumbnail: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-2.jpg',
-        originalAlt: 'Anh slide 2'
-      },
-      {
-        original: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-3.jpg',
-        thumbnail: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-3.jpg',
-        originalAlt: 'Anh slide 3'
-      }
-    ]
+    const { sources } = this.props;
+    // let sources = [
+    //   {
+    //     original: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-1.jpg',
+    //     thumbnail: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-1.jpg',
+    //     originalAlt: 'Anh slide 1'
+    //   },
+    //   {
+    //     original: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-2.jpg',
+    //     thumbnail: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-2.jpg',
+    //     originalAlt: 'Anh slide 2'
+    //   },
+    //   {
+    //     original: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-3.jpg',
+    //     thumbnail: 'http://skydoor.com.vn/images/slide/cua-luoi-chong-muoi-3.jpg',
+    //     originalAlt: 'Anh slide 3'
+    //   }
+    // ]
 
 
     const settings = {

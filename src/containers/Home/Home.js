@@ -1,13 +1,32 @@
 import React, {Component} from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import {Helmet} from 'react-helmet'
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
+import { homeActions } from './../../actions/home';
 
 import CarouselSlider from './../../components/CarouselSlider/CarouselSlider'
 
 import './Home.css';
 
 class  Home extends Component {
+	constructor(props) {
+		super(props)
+
+		this.state = {}
+	}
+
+	componentWillMount() {
+		const { homeActions } = this.props;
+		
+		// Get all sliders
+		homeActions.getSliders()
+	}
+
   render () {
+		const { sliders } = this.props;
+
 	  return (
 		  <div className="home-page">
 				<Helmet>
@@ -18,7 +37,9 @@ class  Home extends Component {
 			  <div className="container-fluid">
 					<div className="row">
 						<div className="col-md-8 col-lg-8">
-							<CarouselSlider/>
+							<CarouselSlider
+								sources={sliders}
+							/>
 						</div>
 						<div className="col-md-4 col-lg-4">
 							fsdfafa
@@ -30,4 +51,17 @@ class  Home extends Component {
   }
 }
 
+const mapStateToProps = (state, ownProps) => {
+  return {
+    sliders: state.sliders
+  }
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    homeActions: bindActionCreators(homeActions, dispatch),
+  }
+};
+
+Home = connect(mapStateToProps, mapDispatchToProps)(Home);
 export default withRouter(Home)
