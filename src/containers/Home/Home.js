@@ -40,6 +40,117 @@ class  Home extends Component {
 							<CarouselSlider
 								sources={sliders}
 							/>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							<p>
+								Is this the only place you used JQuery? If so, I'd recommend ditching it for pure javascript. Everything you can do with JQuery you can also do with React and pure JavaScript, and it's not worth the overhead here.
+
+								Here's a pure JavaScript version of your handleScroll function. Note that document height is notoriously annoying to compute, but I've taken the approach of this question (which just reproduces JQuery's implementation).
+							</p>
+							
 						</div>
 						<div className="col-md-4 col-lg-4">
 							fsdfafa

@@ -7,7 +7,36 @@ class Header extends Component {
   constructor (props) {
     super(props);
     this.state = {
-      menuShow: false
+      menuShow: false,
+      menuFixTop: false
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = (event) => {
+    event.preventDefault();
+
+    const { menuFixTop } = this.state;
+    let scrollTop = document.scrollingElement.scrollTop,
+      topHeaderHeight = this.topHeader.clientHeight, topBannerHeight = this.topBanner.clientHeight;
+    
+    if (menuFixTop && scrollTop < (topHeaderHeight + topBannerHeight)) {
+      this.setState({
+        menuFixTop: false
+      })
+    }
+    if (!menuFixTop && scrollTop >= (topHeaderHeight + topBannerHeight)) {
+      console.log('abcd');
+      this.setState({
+        menuFixTop: true
+      })
     }
   }
 
@@ -25,11 +54,13 @@ class Header extends Component {
   
   render () {
     const { pathname } = this.props.location;
-    const { menuShow } = this.state;
+    const { menuShow, menuFixTop } = this.state;
 
     return (
 			<header>
-        <div className="top-header">
+        <div
+          ref={topHeader => this.topHeader = topHeader}
+          className="top-header">
           <div className="container">
             <button className="navbar-toggle" onClick={this.setToggleMenu}>
               <span className="icon-bar" />
@@ -49,7 +80,9 @@ class Header extends Component {
             </div>
           </div>
         </div>
-        <div className="logo-banner hidden-xs">
+        <div
+          ref={topBanner => this.topBanner = topBanner} 
+          className="logo-banner hidden-xs">
           <div className="container">
             <a className="logo" href="/">
               <i className="logo-image"/>
@@ -79,7 +112,9 @@ class Header extends Component {
             </div>
           </div>
         </div>
-        <nav className={`header-menu ${menuShow ? 'toggle' : 'collapse'}`}>
+        <nav
+          ref={menu => this.menu = menu}
+          className={`header-menu ${menuFixTop ? 'fix-top' : ''} ${menuShow ? 'toggle' : 'collapse'}`}>
           <div className="container">
             <ul className="nav navbar">
               <li className={ pathname==='/' ? 'active' : null} onClick={this.navToPage}>

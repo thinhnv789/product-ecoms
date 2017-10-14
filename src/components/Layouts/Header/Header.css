@@ -149,10 +149,16 @@
   }
   .header-menu{
     width: 100%;
+    height: 50px;
     position: relative;
   }
+  .header-menu.fix-top {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+  }
   .header-menu.collapse{
-    left: -1px;
+    left: 0;
   }
   .header-menu .navbar{
     height: 50px;
