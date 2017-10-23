@@ -31,12 +31,13 @@ class Header extends Component {
       this.setState({
         menuFixTop: false
       })
+      document.body.classList.remove('menu-fixed-top');
     }
     if (!menuFixTop && scrollTop >= (topHeaderHeight + topBannerHeight)) {
-      console.log('abcd');
       this.setState({
         menuFixTop: true
       })
+      document.body.classList.add('menu-fixed-top');
     }
   }
 

@@ -14,17 +14,37 @@ class ProductGrid extends React.Component {
     render() {
       return (
         <div className="product-grid">
-           <div className="row">
-						<div className="col-md-4">
+          <h2 className="title text-center">
+            Best Sellers Products
+          </h2>
+          <ul className="text-center product-category">
+            <li className="active">
+              <a href="#">All</a>
+            </li>
+            <li>
+            <a href="#">Product1</a>
+            </li>
+            <li>
+            <a href="#">Product2</a>
+            </li>
+            <li>
+            <a href="#">Product3</a>
+            </li>
+          </ul>
+          <div className="row">
+						<div className="col-md-3">
 							<ProductItem/>
 						</div>
-						<div className="col-md-4">
+						<div className="col-md-3">
 							<ProductItem/>
 						</div>
-						<div className="col-md-4">
+						<div className="col-md-3">
 							<ProductItem/>
 						</div>
-           </div>
+            <div className="col-md-3">
+							<ProductItem/>
+						</div>
+          </div>
         </div>
       )
     }

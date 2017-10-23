@@ -48,7 +48,7 @@ class  Home extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="container">
+				<div className="container-fluid">
 					<ProductGrid/>
 				</div>
 		  </div>

@@ -3,15 +3,22 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+body.menu-fixed-top {
+  margin-top: 50px;
+}
 a {
   background-color: transparent;
   text-decoration: none;
+  color: #555;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
 }
 a:active,
 a:hover,
 button:focus,
 li:focus {
   outline: 0;
+  color: #66cc33;
 }
 
 * {
@@ -67,6 +74,7 @@ li:focus {
   }
 }
 .container-fluid {
+  max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
