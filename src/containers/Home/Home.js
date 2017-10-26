@@ -9,6 +9,9 @@ import { homeActions } from './../../actions/home';
 import CarouselSlider from './../../components/CarouselSlider/CarouselSlider';
 import SuperOffer from './../../components/SuperOffer/SuperOffer';
 import ProductGrid from './../../components/ProductGrid/ProductGrid';
+import {
+	Loading
+} from './../../components';
 
 import './Home.css';
 
@@ -16,7 +19,9 @@ class  Home extends Component {
 	constructor(props) {
 		super(props)
 
-		this.state = {}
+		this.state = {
+			loading: true
+		}
 	}
 
 	componentWillMount() {

@@ -85,31 +85,37 @@ class Header extends Component {
           ref={topBanner => this.topBanner = topBanner} 
           className="logo-banner hidden-xs">
           <div className="container">
-            <a className="logo" href="/">
-              <i className="logo-image"/>
-            </a>
-            <div className="banner-top">
-              <span className="banner-item order-online">
-                <i className="fa fa-phone"/>
-                <div className="text-inline">
-                  <label style={{color: '#000'}}>Liên hệ:</label><br/>
-                  <label>0123456789</label>
-                </div>
-              </span>
-
-              <span className="banner-item shipping-quickly">
-                <i className="fa fa-map-marker"/>
-                <div className="text-inline">
-                  <label style={{color: '#000'}}>Địa chỉ:</label><br/>
-                  <address>144 Xuân Thủy, Cầu Giấy, Hà Nội</address>
-                </div>
-              </span>
-
-              <a href="/cart" className="cart pull-right">
-                <i className="fa fa-cart-arrow-down"/>
-                <span className="cart-items">GIỎ HÀNG</span>
-                <span className="count-items">0</span>
-              </a>
+            <div className="row banner-top">
+              <div className="col-md-3">
+                <a className="logo" href="/">
+                  <i className="logo-image"/>
+                </a>
+              </div>
+              <div className="col-md-3">
+                <span className="banner-item order-online">
+                  <i className="fa fa-phone"/>
+                  <div className="text-inline">
+                    <label style={{color: '#000'}}>Liên hệ:</label><br/>
+                    <label>0123456789</label>
+                  </div>
+                </span>
+              </div>
+              <div className="col-md-3">
+                <span className="banner-item shipping-quickly">
+                  <i className="fa fa-map-marker"/>
+                  <div className="text-inline">
+                    <label style={{color: '#000'}}>Địa chỉ:</label><br/>
+                    <address>144 Xuân Thủy, Cầu Giấy, Hà Nội</address>
+                  </div>
+                </span>
+              </div>
+              <div className="col-md-3">
+                <a href="/cart" className="cart pull-right">
+                  <i className="fa fa-cart-arrow-down"/>
+                  <span className="cart-items">GIỎ HÀNG</span>
+                  <span className="count-items">0</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
