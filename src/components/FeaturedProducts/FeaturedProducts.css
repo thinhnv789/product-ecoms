@@ -1,0 +1,10 @@
+.featured-products .product-thumb {
+    text-align: center;
+    border: 1px solid #e5e5e5;
+}
+
+.featured-products .product-thumb .product-image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}

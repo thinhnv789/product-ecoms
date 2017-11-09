@@ -9,6 +9,8 @@ import { homeActions } from './../../actions/home';
 import CarouselSlider from './../../components/CarouselSlider/CarouselSlider';
 import SuperOffer from './../../components/SuperOffer/SuperOffer';
 import ProductGrid from './../../components/ProductGrid/ProductGrid';
+import FeaturedProduct from './../../components/FeaturedProducts/FeaturedProducts';
+
 import {
 	Loading
 } from './../../components';
@@ -24,7 +26,7 @@ class  Home extends Component {
 		}
 	}
 
-	componentWillMount() {
+	componentDidMount() {
 		const { homeActions } = this.props;
 		
 		// Get all sliders
@@ -55,6 +57,9 @@ class  Home extends Component {
 				</div>
 				<div className="container-fluid">
 					<ProductGrid/>
+				</div>
+				<div className="container-fluid">
+					<FeaturedProduct/>
 				</div>
 		  </div>
 	  )
